@@ -1,0 +1,76 @@
+You are a professional full-stack web developer.  
+Build a complete, production-ready **AI Doubt Solver WebApp for JEE/NEET Aspirants** using React + Tailwind + shadcn/ui.  
+
+### 🌟 WebApp Purpose
+- Students upload or type a question (Physics, Chemistry, Maths, Biology).  
+- The app sends it to an **AI API (OpenAI or similar)** to generate a **step-by-step solution**.  
+- Solutions must be **clear, exam-oriented, and show formulas + reasoning**.  
+- App should store **user’s solved doubts in history** for revision.  
+
+---
+
+### 🔹 Pages/Features Required
+
+1. **Landing Page**
+   - Catchy headline: *“Your 24×7 Personal JEE/NEET Mentor”*  
+   - Hero section with file upload + text box.  
+   - Features list (Stepwise Solutions, Concept Simplifier, Bookmark Doubts).  
+   - CTA button → *“Start Solving Doubts Now”*.  
+
+2. **Dashboard Page (after login/signup)**
+   - File upload box (image/PDF) + text input.  
+   - Button: *“Solve Doubt”*.  
+   - Output card with:  
+     - Stepwise solution.  
+     - Alternative methods (if any).  
+     - Related formula/theory block.  
+   - Buttons: *“Explain in Simpler Words”* + *“Save to Bookmarks”*.  
+
+3. **Doubt History Page**
+   - List of all past solved questions.  
+   - Option to search by subject/chapter.  
+   - Bookmark/favorite system.  
+
+4. **Authentication**
+   - Login/Signup with Email/Google.  
+   - Free tier → 5 doubts/day.  
+   - Paid tier → Unlimited doubts.  
+
+5. **Pricing Page**
+   - Simple subscription plan (₹199–₹299/month).  
+   - Razorpay/Stripe integration (dummy setup for now).  
+
+---
+
+### 🔹 Design Requirements
+- Clean, minimal, **IIT-prep student friendly** look.  
+- Use **TailwindCSS + shadcn/ui** components.  
+- Rounded cards, soft shadows, glassmorphism for solution cards.  
+- Add simple animations (Framer Motion).  
+- Mobile-responsive.  
+
+---
+
+### 🔹 Tech Requirements
+- **Frontend:** React + TailwindCSS + shadcn/ui + Framer Motion.  
+- **Backend (API call handling):** Next.js API routes (or Express.js if easier).  
+- **Database:** Supabase/Firebase for storing doubts & user accounts.  
+- **Authentication:** Clerk/Auth0/Firebase Auth.  
+- **Payment:** Razorpay/Stripe integration.  
+
+---
+
+### 🔹 API Integration
+- Use **OpenAI API (GPT-4 or GPT-3.5)** to generate step-by-step solutions.  
+- Example system prompt for API:  
+  “You are an IITian mentor. Solve JEE/NEET level questions step-by-step. Show formulas, reasoning, and final answer. Keep explanations clear, structured, and exam-oriented.”  
+
+- Optional: Math rendering with KaTeX/MathJax.  
+
+---
+
+### 🔹 Deliverables
+- Full working **React webapp code**.  
+- Clean component structure.  
+- Sample API call with error handling.  
+- Ready to deploy on **Vercel/Netlify**.  
